@@ -33,11 +33,12 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 
 
 ### Use Case
-![](images/A-CRM-Use-Case.png)
-- UC-1 [Login on A-CRM]: Agents can log-in by entering an email address and password. As an extension, new agents my register first.
-- UC-2 [Register on A-CRM]: Agents can register to get an account (profile) to access the A-CRM system.
-- UC-3 [Edit a customer]: Agents can create, update and delete customers.
-- UC-4 [Show a customer list]: Agents can get an overview over their customers based on a customer list. As an extension they can create, update and delete customers (UC-3).
+![](images/UCDiag.png)
+- UC-1 [Register Repair]: A Mechanic enters a Repair into the system by entering information from the physical sheet. Info needed are the repairNumber (Unique identifier), bikeBrand, bikeColor, mechanicName, workPerformed, customerName and Date in DDMMYY.
+- UC-2 [Edit a repair]: Mechanics can create, update and delete repair cases.
+- UC-3 [Open existing repair case]: Mechanics can search and open existing repair cases. The search can be conducted via the repairNumber or a list of repairs is provided when searching with the customerName.
+- UC-4 [Delete a repair]: Mechanics can delete repair cases, this will happen when a customer rejects a quotation.
+- UC-5 [Register in System]: Mechanics can register to get an account (profile) to access the system.
 
 ## Design
 
