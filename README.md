@@ -3,11 +3,9 @@
 [![Deploy to Heroku](https://img.shields.io/badge/deploy%20to-Heroku-6762a6.svg?longCache=true)](https://heroku.com/deploy)
 
 
-BikeAPI
+#BikeAPI
 
-
-T
-
+This Project is Part of the Internet Technologies module in the 5th Semestre of the Business Information Technologies Bachelor at FHNW.
 
 #### Contents:
 - [Analysis](#analysis)
@@ -24,9 +22,7 @@ T
 
 ### Scenario
 
-his Project is Part of the Internet Technologies module in the 5th Semestre of the Business Information Technologies Bachelor at FHNW.
-
-Here we develop a very basic API based on a simple Business Scenario. My Scenario is an application, that is situated in my daily business. I own a bike shop and where we also repair bikes. We are four people doing repairs, the system is currently paper based. This is especially a pain when we have to look up a past repair, which would mean we have to dive into the barely structured paper archive. 
+We develop a very basic API based on a simple Business Scenario. My Scenario is an application, that is situated in my daily business. I own a bike shop and where we also repair bikes. We are four people doing repairs, the system is currently paper based. This is especially a pain when we have to look up a past repair, which would mean we have to dive into the barely structured paper archive. 
 The API is deployed in the scenario, where mechanics are enter the repair into the system, assign it a unique number which is on the paper, and free-text the labour executed. For simplicity we don't create bikes as an object themselves, only mechanics and repairs where the bike is mentioned as string.
 
 Important: No Repairnumber can be created twice, if so requested we have to point out previously done work.
