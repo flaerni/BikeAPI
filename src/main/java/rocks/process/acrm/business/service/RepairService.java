@@ -25,13 +25,7 @@ public class RepairService {
     private MechanicService mechanicService;
 
     public Repair editRepair(@Valid Repair repair) {
-        if (repair.getId() == null) {
-            repair.setMechanic(mechanicService.getCurrentMechanic());
-            return repairRepository.save(repair);
-        }
-        if (repair.getMechanic() == null) {
-            repair.setMechanic(mechanicService.getCurrentMechanic());
-        }
+        repair.setMechanic(mechanicService.getCurrentMechanic());
         return repairRepository.save(repair);
 
     }

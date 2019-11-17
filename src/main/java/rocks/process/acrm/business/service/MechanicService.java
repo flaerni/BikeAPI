@@ -3,9 +3,7 @@ package rocks.process.acrm.business.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import rocks.process.acrm.data.domain.Agent;
 import rocks.process.acrm.data.domain.Mechanic;
-import rocks.process.acrm.data.repository.AgentRepository;
 import rocks.process.acrm.data.repository.MechanicRepository;
 
 import javax.annotation.PostConstruct;
@@ -33,15 +31,16 @@ public class MechanicService {
     }
 
     public Mechanic getCurrentMechanic() {
-        String userName = "Florian";
+        String userName = "Demo";
         return mechanicRepository.findByName(userName);
     }
 
     @PostConstruct
     private void init() throws Exception {
         Mechanic mechanic = new Mechanic();
-        mechanic.setName("Florian");
-        mechanic.setEmail("florian@demo.ch");
+        mechanic.setId((long) 0);
+        mechanic.setName("Demo");
+        mechanic.setEmail("demo@demo.ch");
         mechanic.setPassword("password");
         this.saveMechanic(mechanic);
     }
