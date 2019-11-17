@@ -38,7 +38,7 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 - UC-2 [Edit a repair]: Mechanics can create, update and delete repair cases.
 - UC-3 [Open existing repair case]: Mechanics can search and open existing repair cases. The search can be conducted via the repairNumber or a list of repairs is provided when searching with the customerName.
 - UC-4 [Delete a repair]: Mechanics can delete repair cases, this will happen when a customer rejects a quotation.
-- UC-5 [Register in System]: Mechanics can register to get an account (profile) to access the system.
+- UC-5 [Register in System]: Mechanics can register to get an account (profile) to access the system. For simplicity reasons this registration is omitted in this mini-project and simulated in the class MechanicService
 
 ## Design
 
