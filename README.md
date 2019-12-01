@@ -141,3 +141,6 @@ Further can be seen using the Swagger-UI.
 The app is deployed with Heroku, the functionality can be looked at and tried out utilizing the SwaggerUI :
 
 https://bikeapi.herokuapp.com/swagger-ui.html
+
+[![Look at implemented Heroku-App](https://i.ibb.co/3zyg2Kf/btn.jpg)](https://bikeapi.herokuapp.com/swagger-ui.html)
+
