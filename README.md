@@ -43,7 +43,7 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 ## Design
 
 ### Endpoint Prototype
-**Path**: [`/api/customer`](/api/customer) 
+**Path**: [`/api/CustomerEndpoint`](/api/CustomerEndpoint) 
 
 **Method:** `POST`
 
@@ -51,20 +51,23 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 
 ```JSON
 {
-  "agent": {
-    "customers": [
-      null
-    ],
+  "bikeBrand": "string",
+  "bikeColor": "string",
+  "customerName": "string",
+  "customerNameName": "string",
+  "date": "string",
+  "id": 0,
+  "mechanic": {
     "email": "string",
     "id": 0,
     "name": "string",
     "password": "string",
-    "remember": "string"
+    "remember": "string",
+    "repairs": [
+      null
+    ]
   },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
+  "workPerformed": "string"
 }
 ```
 
@@ -74,20 +77,23 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 
 ```JSON
 {
-  "agent": {
-    "customers": [
-      null
-    ],
+  "bikeBrand": "string",
+  "bikeColor": "string",
+  "customerName": "string",
+  "customerNameName": "string",
+  "date": "string",
+  "id": 0,
+  "mechanic": {
     "email": "string",
     "id": 0,
     "name": "string",
     "password": "string",
-    "remember": "string"
+    "remember": "string",
+    "repairs": [
+      null
+    ]
   },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
+  "workPerformed": "string"
 }
 ```
 
