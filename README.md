@@ -8,7 +8,7 @@
 This Project is Part of the Internet Technologies module in the 5th Semestre of the Business Information Technologies Bachelor at FHNW.
 
 #### Contents:
-- [Analysis](#analysis)
+  - [Analysis](#analysis)
   - [Scenario](#scenario)
   - [Use Case](#use-case)
 - [Design](#design)
@@ -101,26 +101,37 @@ Create: Create a new repair Read: Get a repair based on the ID Update: Change th
 
 ### Data Access / Persistence Layer
 
-The `rocks.process.acrm.data.domain` package contains the following domain objects / entities including getters and setters:
+The `rocks.process.acrm.data.domain` package contains the following domain objects / entities - getters and setters not shown:
 
-![](images/A-CRM-Domain-Model.png)
+![](images/Package Domain.png)
 
-This would be the ERD representation of the domain model:
 
-![](images/A-CRM-ERD.png)
 
 ### Business Layer
 
 The `rocks.process.acrm.business.service` package contains classes of the following business services:
 
-![](images/business-service.png)
+![](images/business-serviceCD.png)
 
 
 ### Service Layer / API
 
-On the service layer, the API for customer management has been realised using the REST style as depicted in the following:
+On the service layer, the API for customer management has been realised using the REST style. The functionality is:
 
-![](images/api-endpoint-vp.png)
+GET /api/repair getRepairs
+-> Get all Repairs registered
+
+POST /api repair postRepair
+-> Post a new repair
+
+GET /api/repair/{repairId} getRepair
+-> get a specific repair by ID
+
+PUT /api/repair/{repairId} putRepair
+-> Change an existing repair
+
+DELETE /api/repair/{repairId} deleteRepair
+-> Delete a repair
 
 Further can be seen using the Swagger-UI.
 
