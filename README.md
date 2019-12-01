@@ -1,8 +1,8 @@
 
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-[![Deploy to Heroku](https://ibb.co/SrXFbSQ)](https://heroku.com/deploy)
+[![Deploy to Heroku]()](https://heroku.com/deploy)
 
-[![Look at implemented Heroku-App](https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png)](https://bikeapi.herokuapp.com/swagger-ui.html)
+[![Look at implemented Heroku-App](https://i.ibb.co/3zyg2Kf/btn.jpg)](https://bikeapi.herokuapp.com/swagger-ui.html)
 
 # BikeAPI
 
