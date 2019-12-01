@@ -2,6 +2,7 @@
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![Deploy to Heroku](https://img.shields.io/badge/deploy%20to-Heroku-6762a6.svg?longCache=true)](https://heroku.com/deploy)
 
+[![Look at implemented Heroku-App](https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png)](https://bikeapi.herokuapp.com/swagger-ui.html)
 
 # BikeAPI
 
@@ -137,9 +138,6 @@ Further can be seen using the Swagger-UI.
 
 ## Deployment
 
-This spring boot application can be deployed to Heroku by adding the following `Procfile` to the project root:
-```console
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar /target/*.jar
-```
+The app is deployed with Heroku, the functionality can be looked at and tried out utilizing the SwaggerUI :
 
-Finally the Swagger-UI can be access using the Heroku app specific address such as: `https://***.herokuapp.com/swagger-ui.html`
+https://bikeapi.herokuapp.com/swagger-ui.html
