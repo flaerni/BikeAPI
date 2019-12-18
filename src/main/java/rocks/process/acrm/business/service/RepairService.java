@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 @Validated
 public class RepairService {
-
+ 
     @Autowired
     private RepairRepository repairRepository;
     @Autowired
